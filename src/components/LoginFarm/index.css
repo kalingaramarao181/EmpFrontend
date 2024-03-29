@@ -112,12 +112,27 @@
   .user-input {
     width: 250px;
     font-size: 14px;
+    margin-bottom: 10px;
   }
   
   .login-button,
   .login-button1 {
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
-    width: 150px;
+    width: 250px;
+  }
+
+  .login-selection{
+    background: white;
+    border: 0.1vw solid #6366f1;
+    width: 16vw;
+    border-radius: 5px;
+    padding: 0.7vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    outline: none;
+    font-size: 1.6vw;
+    color: black;
+    align-self: flex-end;
   }
 }

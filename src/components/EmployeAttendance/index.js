@@ -58,9 +58,9 @@ const EmployeAttendance = () => {
             <tr>
                 <th className="db-item-name1">Check</th>
                 <th className="db-item-name1">Date</th>
-                <th className="db-item-name1">Employe Id</th>
-                <th className="db-item-name1">TimeIn</th>
-                <th className="db-item-name1">TimeOut</th>
+                <th className="db-item-name1">Employee Id</th>
+                <th className="db-item-name1">Time In</th>
+                <th className="db-item-name1">Time Out</th>
                 <th className="db-item-name1">Hours of Working</th>
               </tr>
               {empData.map((each) => {
@@ -106,9 +106,9 @@ const EmployeAttendance = () => {
         <tr className="table1">
           <th className="db-item-name">Check</th>
           <th className="db-item-name">Name</th>
-          <th className="db-item-name">Employe Id</th>
-          <th className="db-item-name">TimeOut</th>
-          <th className="db-item-name">TimeIn</th>
+          <th className="db-item-name">Employee Id</th>
+          <th className="db-item-name">Time Out</th>
+          <th className="db-item-name">Time In</th>
         </tr>
       {attendanceData.map((data)=>(
         <tr  className="table1">
@@ -128,9 +128,9 @@ const EmployeAttendance = () => {
               <th  className="db-item-name1">Check</th>
               <th  className="db-item-name1">Date</th>
               <th  className="db-item-name1">Name</th>
-              <th  className="db-item-name1">Employe Id</th>
-              <th  className="db-item-name1">TimeIn</th>
-              <th  className="db-item-name1">TimeOut</th>
+              <th  className="db-item-name1">Employee Id</th>
+              <th  className="db-item-name1">Time In</th>
+              <th  className="db-item-name1">Time Out</th>
             </tr>
             {everyDayAttendanceData.map((data)=>(
             <tr  className="table1">
@@ -148,15 +148,15 @@ const EmployeAttendance = () => {
       return(
         <table className='emp-work-hrs-container'>
         <tr className="table1">
-          <th  className="db-item-name1">CHECK</th>
-          <th   className="db-item-name1">NAME</th>
-          <th  className="db-item-name1">EMPLOYE ID</th>
-          <th  className="db-item-name1">JOBPOSITION</th>
-          <th  className="db-item-name1">LOCATION</th>
-          <th  className="db-item-name1">DATEOFBIRTH</th>
-          <th  className="db-item-name1">EMAIL</th>
-          <th  className="db-item-name1">NUMBER</th>
-          <th  className="db-item-name1">ADDRESS</th>
+          <th  className="db-item-name1">Check</th>
+          <th   className="db-item-name1">Name</th>
+          <th  className="db-item-name1">Employee Id</th>
+          <th  className="db-item-name1">Job Position</th>
+          <th  className="db-item-name1">Location</th>
+          <th  className="db-item-name1">DateOfBirth</th>
+          <th  className="db-item-name1">Email</th>
+          <th  className="db-item-name1">Numebr</th>
+          <th  className="db-item-name1">Address</th>
         </tr>
       {employe.map((data)=>(
         <tr className="table1">
@@ -181,10 +181,10 @@ const EmployeAttendance = () => {
     <div className='attendance-container'>
       <h1 className='Hre-head1'>EMPLOYEE ATTENDACE DATA</h1>
       <div className='Hre-card1'>
-        <button onClick={() => setBtnStatus("Employe Attendance")} className='Hre-button1'>Employe Wise Attendance</button>
+        <button onClick={() => setBtnStatus("Employe Attendance")} className='Hre-button1'>Employee Wise Attendance</button>
         <button onClick={() => setBtnStatus("Today Present")} className='Hre-button1'>Today Present<p>{attendanceData.length}</p></button>
-        <button onClick={() => setBtnStatus("Attandance Data")} className='Hre-button1'>Total Attandance Data<p>{everyDayAttendanceData.length}</p></button>
-        <button onClick={() => setBtnStatus("Employe Details")} className='Hre-button1'>Employe Details<p>{employe.length}</p></button>
+        <button onClick={() => setBtnStatus("Attandance Data")} className='Hre-button1'>Total Attendance Data<p>{everyDayAttendanceData.length}</p></button>
+        <button onClick={() => setBtnStatus("Employe Details")} className='Hre-button1'>Employee Details<p>{employe.length}</p></button>
       </div>    
           <h1 className='emp-bt-status-name'>{btnStatus + " :"}</h1>
           <div className='att-table-container'>

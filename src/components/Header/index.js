@@ -210,7 +210,7 @@ class Header extends Component{
                     {productCardsList.map((eachItem) => (
                     <Link className="product-item-link" to={"/" + eachItem.uniqueId}>  
                         <li className="product-item">
-                            <h1 className="preoduct-head-1">{eachItem.productName}</h1>
+                            <h1 className="product-head-1">{eachItem.productName}</h1>
                             <p className="product-desc-1">{eachItem.content}</p>
                         </li>
                         </Link>
@@ -491,10 +491,3 @@ class Header extends Component{
 }
 }
 export default withRouter(Header)
-
-/*<Link to="/Login">
-    <div className="preofile-container">
-        <img className="profile-logo" src="https://cdn1.iconfinder.com/data/icons/bokbokstars-121-classic-stock-icons-1/512/person-man.png" alt="user" />
-        <label className="profile-text">Login</label>
-    </div>
-</Link>*/

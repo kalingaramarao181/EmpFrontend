@@ -6,19 +6,19 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    padding: 5px;
+    padding: 1vh;
     background-color: #013b6b;
-    margin-top: 10px;
+    margin-top: 0.2vh;
     width: 100vw;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 1vw;
+    padding-left: 1vw;
 }
 
 .nav-image {
-    height: 60px;
-    width: 160px;
+    height: 8vh;
+    width: 14vw;
     margin: 0px;
-    margin-left: 10px;
+    margin-left: 1vw;
     border-radius: 5px;
 }
 
@@ -37,18 +37,6 @@
     align-items: center;
 }
 
-.profile-logo {
-    height: 30px;
-    width: 30px;
-    border-radius: 15px;
-}
-
-.profile-text {
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-}
-
 .nav-item {
     margin-right: 15px;
 }
@@ -56,21 +44,20 @@
 .nav-button {
     background-color: transparent;
     color: white;
-    font-size: 18px;
+    font-size: 1.4vw;
     border: none;
     border-radius: 30px;
-    padding: 10px;
+    padding: 0.5vw;
     display: inline-block;
     cursor: pointer;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
     position: relative;
     display: inline-block;
 }
 
 .nav-button:hover {
-    box-shadow: inset 80px 50px 0 0 #1a4569;
-    font-weight: bold;
+    box-shadow: inset 20vw 25vw 0 0 #1a4569;
 }
 
 .nav-products {
@@ -81,8 +68,8 @@
     display: block;
     position: absolute;
     background-color: azure;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .nav-main-container {
@@ -96,8 +83,8 @@
 
 .products-container {
     background-color: #f9f9f9;
-    min-width: 160px;
-    padding: 12px 16px;
+    width: 100vw;
+    padding: 1vw 1vh;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -113,7 +100,7 @@
     justify-content: center;
     align-items: center;
     background-color: #013b6b;
-    padding: 5px;
+    padding: 0.5vw;
     border-radius: 5px;
 }
 
@@ -132,13 +119,13 @@
 
 .product-list-item {
     list-style-type: none;
-    margin-bottom: 5px;
+    margin-bottom: 0.5vw;
 }
 
 .product-item-button {
     background-color: #99a8a4;
     color: black;
-    font-size: 24px;
+    font-size: 1vw;
     border: none;
     padding: 15px;
     width: 300px;
@@ -156,21 +143,21 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: #013b6b;
-    border-radius: 10px;
-    margin-left: 10px;
+    border-radius: 0.5vw;
+    margin-left: 0.5vw;
     width: 70vw;
 }
 
 /* Products card item */
 
 .product-item {
-    background-color: #99a8a4;
+    border: solid black 1px;
     border-radius: 10px;
-    margin: 5px;
+    margin: 0.5vw;
     list-style-type: none;
-    padding: 10px;
-    width: 400px;
-    height: 100px;
+    padding: 0.5vw;
+    width: 32vw;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -178,7 +165,7 @@
 }
 
 .product-item-link {
-    color: rgb(8, 1, 1);
+    color: white;
     text-decoration: none;
 }
 
@@ -190,7 +177,7 @@
 }
 
 .product-head-1 {
-    font-size: 28px;
+    font-size: 2.5vw;
     color: white;
 }
 
@@ -199,7 +186,7 @@
 }
 
 .product-desc-1 {
-    font-size: 18px;
+    font-size: 1.2vw;
     color: white;
 }
 
@@ -213,8 +200,8 @@
     justify-content: flex-start;
     background-color: #013b6b;
     border-radius: 10px;
-    margin-left: 10px;
-    padding: 20px;
+    margin-left: 0.5vw;
+    padding: 1vw;
     width: 70vw;
 }
 
@@ -224,32 +211,34 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 23vw;
 }
 
-.hrcloud-d-image {
-    height: 160px;
-    width: 320px;
+.hrcloud-d-image-1 {
+    height: 20vh;
+    width: 23vw;
     border-radius: 10px;
 }
 
 .hrcloud-d-head {
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: 600;
     color: white;
+    margin-top: 0.5vh;
 }
 
 .hrcloud-d-desc1 {
-    font-size: 20px;
+    font-size: 1.2vw;
     color: white;
-    font-weight: 400;
+    font-weight: 20vw;
     width: 300px;
-    align-self: flex-start;
+    text-align: start;
 }
 
 .hrcloud-d-button {
     border: none;
     text-decoration: underline;
-    font-size: 24px;
+    font-size: 1.8vw;
     color: white;
     background-color: transparent;
 }
@@ -259,7 +248,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 280px;
+    width: 14vw;
 }
 
 .hrcloud-d-item-container1 {
@@ -267,20 +256,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    width: 20vw;
     border: 1px solid #d8d4d9;
     border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 0.5vw;
+    margin-bottom: 0.5vh;
 }
 
 .hrcloud-d-item-icon {
-    font-size: 20px;
+    font-size: 1vw;
     color: white;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+    width: 4vw;
+    height: 4vh;
+    margin-right: 0.5vw;
     background-color: #021a63;
     border-radius: 10px;
     text-align: left;
@@ -291,15 +279,17 @@
 }
 
 .hrcloud-d-name {
-    font-size: 18px;
+    font-size: 1.4vw;
     color: white;
     margin-bottom: 0px;
+    text-align: start;
 }
 
 .hrcloud-d-name-desc {
-    font-size: 14px;
+    font-size: 1.1vw;
     color: white;
-    margin-top: 10px;
+    margin-top: 0.3vh;
+    text-align: start;
 }
 
 /* Logout and login buttons */
@@ -308,13 +298,13 @@
 .head-login-button {
     border: none;
     text-align: center;
-    width: 110px;
-    height: 40px;
-    font-size: 18px;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.2vw;
     color: white;
     border-radius: 5px;
     background-color: #0542a3;
-    margin-bottom: 15px;
+    margin-bottom: 0.2vh;
 }
 
 /* Hidden page button */
@@ -327,14 +317,15 @@
 /* Login buttons */
 
 .hr-login-button {
-    background-color: #1a4eb8;
-    color: white;
     border: none;
+    text-align: center;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.2vw;
+    color: white;
     border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 30px;
-    cursor: pointer;
+    background-color: #0542a3;
+    margin-top: 0.3vh;
 }
 
 .hr-login-button1 {
@@ -342,9 +333,9 @@
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 30px;
+    font-size: 1.3vw;
+    padding: 0.4vw;
+    margin-top: 3vh;
     cursor: pointer;
 }
 
@@ -380,6 +371,16 @@
         justify-content: space-between;
     }
 
+    .products-container {
+        background-color: #f9f9f9;
+        min-width: 50px;
+        padding: 12px 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
     .head-logout-button,
     .head-login-button {
         border: none;
@@ -398,6 +399,15 @@
         display: flex;
         align-items: center;
         width: 40px;
+    }
+
+    .products-container {
+        background-color: #f9f9f9;
+        padding: 12px 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex;
     }
     
 
@@ -445,6 +455,7 @@
         width: calc(100% - 20px);
         margin: 5px 10px;
     }
+
 
     .hrcloud-d-container {
         flex-direction: column;
